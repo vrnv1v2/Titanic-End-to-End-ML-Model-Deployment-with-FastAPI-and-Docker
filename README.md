@@ -48,4 +48,11 @@ The model is trained on the following features:
 ---
 
 ## Project Structure
+End_to_End_ML/
+├── Model.ipynb # Model training & feature engineering
+├── deployment.py # FastAPI inference service
+├── titanic_xgb_v1.pkl # Trained model artifact
+├── requirements.txt # Python dependencies
+├── Dockerfile # Docker build instructions
+└── README.md # Project documentation
 
